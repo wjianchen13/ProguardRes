@@ -2,3 +2,9 @@
 plugins {
     id("com.android.application") version "8.1.3" apply false
 }
+
+buildscript {
+    dependencies {
+        classpath  ("com.github.coolxinxin:ClassResGuard:1.0.8")
+    }
+}

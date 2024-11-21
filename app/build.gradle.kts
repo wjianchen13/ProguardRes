@@ -2,6 +2,8 @@ plugins {
     id("com.android.application")
 }
 
+apply(from = "classresguard.gradle")
+
 android {
     namespace = "com.example.proguardres"
     compileSdk = 33
